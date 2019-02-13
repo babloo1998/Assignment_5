@@ -1,0 +1,32 @@
+h1{
+
+	color: white;
+	text-align: center;
+	background-color: #2E8B57;
+	font-family: 'Felipa', cursive;
+}
+button{
+
+	color: #2E8B57;
+	outline: none;
+	margin-top: 20px;
+	height: 75px;
+	width: 150px;
+	margin-left: 15px;
+}
+
+p{
+
+	margin-left: 10px;
+	display: inline;
+	font-size: 15px;
+	text-align: justify;
+}
+#sub{
+
+	float: right;
+	font-weight: bold;
+	color: #2E8B57;
+	font-size: 20px;
+	
+}
