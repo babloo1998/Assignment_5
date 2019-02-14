@@ -54,34 +54,47 @@ var emp=function()
 var em=
 [
 {
-Name:"Babloo",
-Age:"18",
-Salary:"1000",
+Name:"Ashu",
+Age:"25",
+Salary:"1200",
 Dob:"01/01/1998"
+},
+{
+Name:"Aryan",
+Age:"48",
+Salary:"9000",
+Dob:"01/01/1998"
+},
+{
+Name:"Ashish",
+Age:"20",
+Salary:"5000",
+Dob:"01/01/1998"
+},
+{
+Name:"Aditya",
+Age:"18",
+Salary:"50000",
+Dob:"01/01/1998"
+},
+{
+Name:"Ankit",
+Age:"36",
+Salary:"100000",
+Dob:"21/05/1978"
 }
 ]
-var i=0;
-var o=confirm("Want to enter data");
 
-while(o)
-{
-em[i].Name=prompt("Name");
-em[i].Age=prompt("Age");
-em[i].Salary=prompt("Salary");
-em[i].Dob=prompt("Dob");
-i=i+1;
-o=confirm("Want to enter data");
-}
 var j;
-for(j=0;j<i;j++ ){
+for(j=0;j<5;j++ ){
 if(em[j].Salary>5000)
 {
 console.log(em[j]);
 }
 }
-for(j=0;j<i;j++)
+for(j=0;j<5;j++)
 {
-if((em[j].Salary<1000) && (em[j].Age>20))
+if((em[j].Salary<5000) && (em[j].Age>20))
 {
 em[j].Salary=em[j].Salary+(0.05*em[j].Salary);
 }
@@ -91,7 +104,7 @@ console.log(em);
 var old=0;
 var young=0;
 
-for(j=0;j<i;j++)
+for(j=0;j<5;j++)
 {
 if(em[j].Age>35)
 {
